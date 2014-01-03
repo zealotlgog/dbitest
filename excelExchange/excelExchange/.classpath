@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 6 [1.6.0_65-b14-462]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/jxl.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/com.sun.mail_1.4.2.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/jstl.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/jxl.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/mysql-connector-java-5.1.28-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aop-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aop-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aop-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aspects-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aspects-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-aspects-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-beans-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-beans-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-beans-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-build-src-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-support-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-support-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-context-support-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-core-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-core-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-core-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-expression-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-expression-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-expression-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-tomcat-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-tomcat-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-instrument-tomcat-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jdbc-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jdbc-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jdbc-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jms-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jms-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-jms-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-orm-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-orm-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-orm-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-oxm-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-oxm-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-oxm-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-struts-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-struts-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-struts-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-test-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-test-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-test-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-tx-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-tx-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-tx-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-web-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-web-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-web-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-portlet-3.2.5.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-portlet-3.2.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-portlet-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/standard.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
