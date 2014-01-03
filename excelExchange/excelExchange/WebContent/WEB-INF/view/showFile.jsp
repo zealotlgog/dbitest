@@ -8,8 +8,12 @@
 <title>Show File</title>
 <link href="styles/kendo.common.min.css" rel="stylesheet" />
 <link href="styles/kendo.black.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="jqueryslidemenu.css" />
 <script src="js/jquery.min.js"></script>
 <script src="js/kendo.web.min.js"></script>
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="jqueryslidemenu.js"></script>
 <script type="text/javascript" src="painter.js"></script>
 <%
 	String[][] jspArray = null;
@@ -26,7 +30,7 @@ tempArray[<%=j%>] = '<%=jspArray[i][j]%>';
 <%}%>
 	answerArray[<%=i%>] = tempArray;
 <%}
-			}%>
+}%>
 	
 </script>
 <script>
@@ -94,19 +98,20 @@ tempArray[<%=j%>] = '<%=jspArray[i][j]%>';
 	    	var e = window.event || event; // old IE support  
 	    	var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
 	    	if(delta==1){
-	    		painter.reSize(1.1);
+	    		painter.reSize(1.1, event.offsetX,event.offsetY);
 	    	}
 	    	else if(delta==-1){
-	    		painter.reSize(0.9);
+	    		painter.reSize(0.9,event.offsetX, event.offsetY);
 	    	}
     		cleanCanvas();
     		draw();
 		}
 	}
-
+	
 	function doMouseDown(event) {
 		mouseDownX = event.pageX;
 		mouseDownY = event.pageY;
+		//painter.findByLocation(event.offsetX,event.offsetY);
 		started = true;
 	}
 
@@ -114,7 +119,7 @@ tempArray[<%=j%>] = '<%=jspArray[i][j]%>';
 		var x = event.pageX;
 		var y = event.pageY;
 		if (started) {
-			printer.switchBasePoint(x - mouseDownX, y- mouseDownY);
+			painter.switchBasePoint(x - mouseDownX, y- mouseDownY);
 			cleanCanvas();
 			draw();
 			mouseDownX = x;
@@ -173,6 +178,7 @@ tempArray[<%=j%>] = '<%=jspArray[i][j]%>';
 	function cleanCanvas(){
 		canvas.width = canvas.width;
 	}
+
 </script>
 </head>
 <body>
@@ -226,8 +232,24 @@ tempArray[<%=j%>] = '<%=jspArray[i][j]%>';
 			</div>
 			<div id="infoPanel" class="k-content"
 				style="border: 5px #000000 solid; height: 800px; width: 195px; overflow: auto; float: left">
+				Info of the factor:
+				<p />
+				You want to set it as:
+				<p />
+				<textarea rows="1" cols="10">blank</textarea>
+				<div id="myslidemenu" class="jqueryslidemenu">
+					<ul>
+						<li>Type
+							<ul>
+								<li>Factor</li>
+								<li>Property</li>
+								<li>Value</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div>This element will belongs to</div>
 			</div>
-
 		</div>
 		<div id="button" class="k-content"
 			style="border: 5px #000000 solid; height: 100px; overflow: auto">
