@@ -10,7 +10,7 @@
         <link href="styles/kendo.black.min.css" rel="stylesheet" />
         <script type="text/javascript" src="extra/jquery.min.js" ></script>
         <script type="text/javascript" src="extra/kendo.web.min.js"></script>
-        <script type="text/javascript" src="extra/painter.js"></script>
+        <script type="text/javascript" src="painter.js"></script>
             <%
 	String[][] jspArray = null;
 	if (request.getAttribute("answer") != null)
