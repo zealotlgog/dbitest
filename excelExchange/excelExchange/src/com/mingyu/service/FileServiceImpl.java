@@ -1,6 +1,9 @@
 package com.mingyu.service;
 
+import java.io.File;
+
 import com.mingyu.util.*;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -12,10 +15,8 @@ public class FileServiceImpl implements FileService {
 	@Override
 	public String[][] exchangeFile(String input) {
 		// TODO Auto-generated method stub
-		System.out.println(input);
 		String[][] answer;
-		answer = ExceltoArray.read("/Users/mingyu_zhao/Documents/" + input);
-		System.out.println(answer.toString());
+		answer = ExceltoArray.read(input);
 		return answer;
 	}
 }

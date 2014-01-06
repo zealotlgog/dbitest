@@ -86,5 +86,7 @@
 	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-portlet-3.2.5.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/spring-webmvc-portlet-3.2.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/needed/standard.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/jakarta-commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/mingyu_zhao/Documents/Program/libs/commons-fileupload-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
